@@ -12,6 +12,6 @@ Whenever rocket is getting back from the orbit, it needs to check every now and 
 Support following features:
 
 - rocket can query it to see if it's on a good trajectory to land at any moment
-- library can return one of the following values: 'out of platform', 'clash', 'ok for landing'
+- library can return one of the following values: `out of platform`, `clash`, `ok for landing`
 - more than one rocket can land on the same platform at the same time and rockets need to have at least one unit separation between their landing positions
 - platform size can vary and should be configurable
